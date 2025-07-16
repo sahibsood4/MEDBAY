@@ -1,40 +1,62 @@
-Problem on which our team have worked on 
+# 💊 MEDBAY – AI-Driven Pharmaceutical Platform
 
-First selecting the suitable medicine for the type of illness usually take time and makes the customer
-or patient waiting , therefore the time is waste for the customer to be waiting. 
+MEDBAY is a smart healthcare assistant and pharmacy automation system designed to improve medicine accessibility, automate stock management, and provide AI-powered support to patients and pharmacists. It not only answers 500+ daily health queries using GPT but also solves real-world problems like medicine selection, inventory alerts, and price demand analysis.
 
-Second for the medicine stock management pharmacy must check it manually and no warning message for
-medicine that decreases to finish, so MEDBAY provide advantage to setup the process in selecting
-and alert program to warn about the medicine stock.
+---
 
-Finally, yet important, no analysis is done for the prices of medicine usually buy by the customer or
-patient at that area which is done in MEDBAY, this is also important to determine the medicine that
-are demanded more from the customers so that we can be prepared to order more for that type of
-medicine
+## 🩺 Problem Statement
 
-Nowadays, health has became a great matter of concern. Due to the various disease spreading
-around us no one is safe in today’s scenario.
-As we can see as in today the pandemic has hit our country and worldwide too and the lockdown
-has been imposed so it is not safe for people to go outside to buy anything specially medicines
-because the medical stores are the prime location from where the virus can get spreaded but it is
-a compulsory component so it has to be opened and medicines are life-savers.
+In traditional pharmacies, patients face several issues:
 
-In healthcare, the information around our medicines either unavailable or incomprehensible to
-us. There are lots of shop out there which sells medicine on their own price and handover the
-wrong medicine sometimes and sells the expensive medicines just to earn money.
+1. **Medicine Selection Delay**  
+   Patients often wait while pharmacists manually determine which medicine fits the described symptoms or illness. This leads to inefficiency and long queues.
 
-Health is a major player in a person’s life. So in order to get the necessary things even during the
-worst case scenario a firm solution for preventing this problem is a must.
+2. **Manual Stock Management**  
+   Pharmacies track inventory by hand, with no automated alerts for low stock or out-of-stock situations, leading to missed sales and customer frustration.
 
-REQUIREMENTS
+3. **No Demand-Driven Analytics**  
+   There is no system in place to analyze local demand for medicines, which can result in overstocking unpopular drugs and understocking essentials.
 
-We have used 
+4. **Health Risks During Pandemics**  
+   During lockdowns or viral outbreaks, visiting medical stores poses a high health risk, but medicine is a non-negotiable necessity.
 
-        -- Python as a Backend Language
-        
-        -- HTML & CSS as a Frontend Language
-        
-        -- Django as a Framework
-        
-        -- dbsqlite as Database
-        
+5. **Lack of Transparency**  
+   Patients are often overcharged or given incorrect medication due to lack of pricing clarity or verification systems.
+
+---
+
+## 💡 MEDBAY's Solution
+
+✅ **AI-Powered Medicine Recommendation**  
+OpenAI GPT API is used to interact with patients and suggest appropriate medicines based on symptoms.
+
+✅ **Smart Stock Alert System**  
+Backend continuously monitors inventory levels and triggers alerts before stock runs out, reducing manual workload.
+
+✅ **Demand-Based Insights**  
+Analyzes purchase patterns to identify high-demand medicines in specific areas, enabling better stock planning and pricing strategy.
+
+✅ **Remote Access During Lockdowns**  
+Supports contactless browsing, query resolution, and price checks without needing to visit a store physically.
+
+✅ **Transparent Pricing**  
+Provides real-time price comparisons to prevent overcharging and increase trust.
+
+---
+
+## 🔧 Tech Stack
+
+- 🐍 **Python** – Backend logic  
+- 🧠 **OpenAI GPT API** – AI-powered conversational assistant  
+- 🌐 **Django** – Web framework  
+- 🗃️ **SQLite (dbsqlite)** – Lightweight relational database  
+- 🎨 **HTML & CSS** – Frontend UI
+
+---
+
+## 🚀 How to Run Locally
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/your-username/medbay.git
+   cd medbay
